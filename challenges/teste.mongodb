@@ -1,2 +1,0 @@
-use("commerce");
-db.produtos.find({}, {name: 1}).sort({ vendidos: 1 });
